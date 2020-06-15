@@ -1,18 +1,16 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# phpstorm project files
+.idea
 
-# Other files and folders
-.settings/
+# netbeans project files
+nbproject
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
