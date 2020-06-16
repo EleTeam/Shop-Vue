@@ -1,0 +1,21 @@
+.DS_Store
+# 该项目只要生成的项目静态文件/dist/即可，所以不需要提交node_modules
+node_modules/
+# 这个文件夹是前端服务器指向
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+
+package-lock.json
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

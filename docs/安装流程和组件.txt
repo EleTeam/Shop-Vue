@@ -1,0 +1,18 @@
+运行项目：
+    cd appback/ && npm run dev
+    cd appwap/ && npm run dev
+
+构建项目dist文件：
+    cd appback/ && npm run build
+
+下载下来的新项目这样安装
+    cd ./Shop-Vue/appback && npm install
+
+本项目依赖的的组件：
+    npm install --save-dev less-loader less
+    npm install --save axios
+    npm install --save vuex
+    npm install --save xlsx
+    npm install --save vue-xlsx-table
+    npm install --save js-base64
+    npm install --save js-md5
