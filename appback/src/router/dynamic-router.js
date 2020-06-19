@@ -73,6 +73,18 @@ const routes = [
         meta: { requiresAuth: true }
       },
       {
+        path: '/product/index',
+        name: 'product-index',
+        component: (resolve) => require(['@/pages/product/ProductIndex'], resolve),
+        meta: { requiresAuth: true }
+      },
+      {
+        path: '/product/save',
+        name: 'product-save',
+        component: (resolve) => require(['@/pages/product/ProductSave'], resolve),
+        meta: { requiresAuth: true }
+      },
+      {
         path: '/fuser/index',
         name: 'fuser-index',
         component: (resolve) => require(['@/pages/fuser/FuserIndex'], resolve),

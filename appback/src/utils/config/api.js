@@ -20,7 +20,11 @@ export default {
   fuser_index: '/fuser/index',
   fuser_delete: '/fuser/delete',
   order_index: '/order/index',
-  order_stat: '/order/stat'
+  order_stat: '/order/stat',
+  product_index: '/product/index',
+  product_save: '/product/save',
+  product_delete: '/product/delete',
+  product_consts: '/product/consts'
 
   // menu_index: '/menu/index',
   // menu_save: '/menu/save',

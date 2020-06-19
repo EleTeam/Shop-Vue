@@ -88,7 +88,7 @@ export default {
           let url = this.$api.role_delete + '?name=' + item.name
           this.$network.post(url).then(resp => {
             if (resp.code === ResponseCode.SUCCESS) {
-              this.$toast({'title': '删除成功'})
+              this.$toast({title: resp.msg})
               table.refresh()
             } else {
               this.$toast({title: resp.msg, type: 'error'})
