@@ -10,3 +10,18 @@ Shop Vue 开源项目，H5商城，微信商城，(vue+vuex-ruoter+webpack)
      
 #### 开发环境为:
     npm，vue
+    
+#### 项目目录
+    appback  管理后台项目
+    appwap   H5商城项目
+    docs     文档目录
+    
+#### 管理后台项目
+    cd ./Shop-Vue/appback 
+    npm install
+    npm run dev
+    
+#### H5商城项目
+    cd ./Shop-Vue/appwap
+    npm install
+    npm run dev
