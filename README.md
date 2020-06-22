@@ -1,5 +1,5 @@
 # Shop-Vue
-Shop Vue 开源项目，H5商城，微信商城
+Shop Vue 开源项目，H5商城，微信商城，(vue+vuex-ruoter+webpack) 
 
 #### 如果你支持这个项目，请 Star and Fork Me。
 
