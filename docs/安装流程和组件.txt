@@ -16,3 +16,6 @@
     npm install --save vue-xlsx-table
     npm install --save js-base64
     npm install --save js-md5
+
+新建appwap项目：
+    vue init webpack appwap
